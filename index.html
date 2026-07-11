@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festejos Santaella | Bio Link</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fff5f0 0%, #fff0e6 50%, #ffe8d6 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .profile-container {
+            background: white;
+            border-radius: 25px;
+            padding: 40px 30px;
+            box-shadow: 0 25px 50px -12px rgba(218, 119, 63, 0.25);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            border: 3px solid #da773f;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            font-weight: bold;
+            border: 5px solid #fff0e6;
+            box-shadow: 0 10px 30px rgba(218, 119, 63, 0.3);
+            object-fit: cover;
+        }
+        h1 {
+            color: #8b4513;
+            font-size: 28px;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .tagline {
+            color: #da773f;
+            font-size: 16px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+        .contact-info {
+            background: #fff8f0;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            text-align: left;
+            border-left: 4px solid #da773f;
+        }
+        .contact-info h3 {
+            color: #8b4513;
+            font-size: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .contact-item {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #5d4037;
+        }
+        .contact-item i {
+            width: 20px;
+            color: #da773f;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-btn {
+            background: linear-gradient(135deg, #da773f 0%, #e69a5c 100%);
+            color: white;
+            text-decoration: none;
+            padding: 16px 25px;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px -5px rgba(218, 119, 63, 0.4);
+        }
+        .link-btn.whatsapp { background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); }
+        .link-btn.instagram { background: linear-gradient(135deg, #E4405F 0%, #C13584 100%); }
+        .link-btn.facebook { background: linear-gradient(135deg, #1877F2 0%, #0d6efd 100%); }
+        .link-btn.location { background: linear-gradient(135deg, #ea4335 0%, #c62828 100%); }
+        .link-btn.email { background: linear-gradient(135deg, #d44646 0%, #bb3a3a 100%); }
+        .footer {
+            margin-top: 30px;
+            color: #8b4513;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img src="logo.png" alt="Logo Festejos Santaella" class="logo">
+        <h1>Festejos Santaella</h1>
+        <p class="tagline">Eventos con Clase en Funza y Occidente</p>
+        
+        <div class="contact-info">
+            <h3><i class="fas fa-map-marker-alt"></i> Nuestra Oficina</h3>
+            <div class="contact-item">
+                <i class="fas fa-building"></i> Cra. 13 N° 9 - 40, 2do. piso<br>
+                <i class="fas fa-location-arrow"></i> Barrio La Cita, Funza / Cundinamarca
+            </div>
+            
+            <h3><i class="fas fa-calendar-check"></i> Celular de Reservas</h3>
+            <div class="contact-item">
+                <i class="fas fa-mobile-alt"></i> 322 758 0494<br>
+                <i class="fab fa-whatsapp"></i> 310 697 7533
+            </div>
+            
+            <h3><i class="fas fa-envelope"></i> Correo Electrónico</h3>
+            <div class="contact-item">
+                <i class="fas fa-at"></i> festejossantaella@gmail.com
+            </div>
+        </div>
+        
+        <div class="links">
+            <a href="https://www.festejossantaella.com.co/" class="link-btn">🌐 Sitio Web</a>
+            <a href="https://instagram.com/festejos_santaella/" class="link-btn instagram">📸 Instagram</a>
+            <a href="https://facebook.com/festejos.santaella.2025/" class="link-btn facebook">👍 Facebook</a>
+            <a href="https://wa.me/573227580494" class="link-btn whatsapp">💬 WhatsApp</a>
+            <a href="https://www.google.com/maps/search/Cra.+13+N.+9+-+40,+Barrio+La+Cita,+Funza,+Cundinamarca" class="link-btn location">📍 Ubicación</a>
+            <a href="mailto:festejossantaella@gmail.com" class="link-btn email">✉️ Enviar Email</a>
+        </div>
+        
+        <p class="footer">© 2025 Festejos Santaella</p>
+    </div>
+</body>
+</html>
